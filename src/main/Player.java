@@ -41,4 +41,9 @@ public class Player {
     public double getAttack() {
         return this.attack;
     }
+
+    @Override
+    public String toString() {
+        return "Name: " + getName() + " | Health: " + getHealth() + " | Attack: " + getAttack();
+    }
 }
